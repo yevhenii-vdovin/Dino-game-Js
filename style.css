@@ -4,32 +4,32 @@ body {
 
 .game {
   width: 600px;
-  height: 230px;
+  height: 225px;
   border-bottom: 1px solid black;
   margin: auto;
 }
 
-#otter {
-  width: 80px;
-  height: 80px;
-  background-image: url(otter.png);
-  background-size: 80px 80px;
+#dino {
+  width: 70px;
+  height: 70px;
+  background-image: url(dino.png);
+  background-size: 70px 70px;
   position: relative;
-  top: 150px;
+  top: 155px;
 }
 
-#rock {
-  width: 40px;
+#cactus {
+  width: 20px;
   height: 40px;
-  background-image: url(rock.png);
-  background-size: 40px 40px;
+  background-image: url(cact.png);
+  background-size: 20px 40px;
   position: relative;
   top: 115px;
   left: 580px;
-  animation: rockMov 2s infinite linear;
+  animation: cactuskMov 2s infinite linear;
 }
 
-@keyframes rockMov {
+@keyframes cactuskMov {
   0% {
     left: 580px;
   }
